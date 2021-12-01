@@ -1,0 +1,22 @@
+
+.fa-trash-o{
+    margin-left: 20px;
+}
+.edit{
+    text-align: center;
+    margin-right: 20px;
+    padding: 30px;
+}
+button{
+    padding: 15px;
+    border-radius: 20px;
+    border:none;
+    background-color: #f4511e;
+    opacity: 0.6;
+    color: white;
+   
+}
+button:hover {opacity: 1}
+.edit1{
+    text-align: center;
+}

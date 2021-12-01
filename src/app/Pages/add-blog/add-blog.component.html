@@ -1,0 +1,122 @@
+<div class="form">
+    <form [formGroup]="blogForm">
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>Title:</label>
+                    </td>
+                    <td>
+                        <input formControlName="title" type="text" class="form-control">
+
+                        <span *ngIf="title.invalid && title.touched"><i class="fa fa-warning"
+                                style="font-size:20px;color:red"></i>Required</span>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>Content:</label>
+                    </td>
+                    <td>
+                        <textarea formControlName="content" type="text" class="form-control"></textarea>
+                        <span *ngIf="content.invalid && content.touched"><i class="fa fa-warning"
+                                style="font-size:20px;color:red"></i>Required Minimum length of 150</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>Description:</label>
+                    </td>
+                    <td>
+
+                        <textarea formControlName="description" type="text" class="form-control"></textarea>
+                        <span *ngIf="description.invalid && description.touched"><i class="fa fa-warning"
+                                style="font-size:20px;color:red"></i>Required maximum length of 250</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>Author:</label>
+                    </td>
+                    <td>
+                        <input formControlName="author" type="text" class="form-control">
+                        <span *ngIf="author.invalid && author.touched"><i class="fa fa-warning"
+                                style="font-size:20px;color:red;"></i>Required </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>PublishedAt:</label>
+                    </td>
+                    <td>
+                        <input formControlName="publishedAt" type="datetime" class="form-control" readonly>
+
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+        <!-- <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>Image:</label>
+                    </td>
+                    <td>
+                        <input formControlName="urlToImage" type="file" class="form-control" readonly>
+
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+        <!-- <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+                        <label>URL:</label>
+                    </td>
+                    <td>
+                        <input formControlName="url" type="text" class="form-control" readonly>
+
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <button [disabled]="!blogForm.valid" (click)="submit(blogForm)"
+                            type="submit">{{btnval}}</button>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+    </form>
+
+</div>
