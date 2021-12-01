@@ -1,0 +1,97 @@
+{
+  "configVersion": 1,
+  "timestamp": 1638379521120,
+  "index": "https://maniashokkumar.github.io/githubdeploydemo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://maniashokkumar.github.io/githubdeploydemo/636.f1c004bd0c96d326.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/686.c1c44aa021a965bb.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/849.c833eb43ac3477af.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/882.2a2c527a1dbb6e1a.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/common.eece3eb10a88abfe.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/favicon.ico",
+        "https://maniashokkumar.github.io/githubdeploydemo/index.html",
+        "https://maniashokkumar.github.io/githubdeploydemo/main.8bb7a8596d993da5.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/manifest.webmanifest",
+        "https://maniashokkumar.github.io/githubdeploydemo/polyfills.84c230c990fb4bb5.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/runtime.5609a378a8aa9646.js",
+        "https://maniashokkumar.github.io/githubdeploydemo/styles.2fd4eab311a03dc2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/error.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/idp-logo.svg",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/telsa.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-128x128.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-144x144.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-152x152.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-192x192.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-384x384.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-512x512.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-72x72.png",
+        "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://maniashokkumar.github.io/githubdeploydemo/636.f1c004bd0c96d326.js": "8661f1f559360df1ee49b36e43a3e483c69957b1",
+    "https://maniashokkumar.github.io/githubdeploydemo/686.c1c44aa021a965bb.js": "57caba612a319a4050bce80e68b61f8122a9695b",
+    "https://maniashokkumar.github.io/githubdeploydemo/849.c833eb43ac3477af.js": "7688f731e7487fbfcd2624ec7cac124b811ab096",
+    "https://maniashokkumar.github.io/githubdeploydemo/882.2a2c527a1dbb6e1a.js": "27166eb3c325de29905e4e48f400cc9abf638ea0",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/error.png": "26bee6dbb3551711e7616668366affb93d115ee0",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/idp-logo.svg": "7768ae5538f82611876fb37d56de421e2b422b38",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/Images/telsa.png": "8ca9db454c21bced5a43a804b00cc7e3d6715d06",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://maniashokkumar.github.io/githubdeploydemo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://maniashokkumar.github.io/githubdeploydemo/common.eece3eb10a88abfe.js": "5dc037270c84de426bc3d1269bc93773a184697d",
+    "https://maniashokkumar.github.io/githubdeploydemo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://maniashokkumar.github.io/githubdeploydemo/index.html": "7479e794a4f5da31af5738475489e080ad20a46e",
+    "https://maniashokkumar.github.io/githubdeploydemo/main.8bb7a8596d993da5.js": "3c795a816518eaa6cd782b4d9877447aec367d81",
+    "https://maniashokkumar.github.io/githubdeploydemo/manifest.webmanifest": "e31502db1b00ebbc92882eed9346395d59ec542a",
+    "https://maniashokkumar.github.io/githubdeploydemo/polyfills.84c230c990fb4bb5.js": "5790b108197b10e34aba9f742c661eb6a37be3ee",
+    "https://maniashokkumar.github.io/githubdeploydemo/runtime.5609a378a8aa9646.js": "31e0292452582cf74d105b9713e6459776b84efb",
+    "https://maniashokkumar.github.io/githubdeploydemo/styles.2fd4eab311a03dc2.css": "379150dd979016679f33fa8bef7810950ad0acca"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
